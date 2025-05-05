@@ -1,0 +1,159 @@
+/* App.css */
+
+/* General Navbar Styling */
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    border-bottom: 1px solid #e0e0e0; /* Subtle border */
+    padding: 0.5rem 1rem;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    color: #333; /* Dark text for light mode */
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-item:hover {
+    color: #007bff; /* Highlight on hover */
+}
+
+/* Navbar Burger */
+.navbar-burger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0;
+}
+
+.navbar-burger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 1px;
+}
+
+/* Navbar Menu */
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-end {
+    display: flex;
+    align-items: center;
+}
+
+/* Buttons */
+.button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button.is-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.button.is-danger:hover {
+    background-color: #c82333;
+}
+
+
+/* CSS for StoreRegistration class */
+.store-registration-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.form-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.store-form .form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Center location button */
+.location-group {
+    text-align: center;
+}
+
+/* Center submit button */
+.submit-group {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.location-display {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
